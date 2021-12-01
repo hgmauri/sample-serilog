@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Serilog.WebApi", "src\Sample.Serilog.WebApi\Sample.Serilog.WebApi.csproj", "{FE6ADE67-9628-4DFB-BCBC-F078A47BD216}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Serilog.WebApi.Core", "src\Sample.Serilog.WebApi.Core\Sample.Serilog.WebApi.Core.csproj", "{E86ACDF9-F816-44F8-81AF-A1EF71CB91C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE6ADE67-9628-4DFB-BCBC-F078A47BD216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6ADE67-9628-4DFB-BCBC-F078A47BD216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6ADE67-9628-4DFB-BCBC-F078A47BD216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6ADE67-9628-4DFB-BCBC-F078A47BD216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86ACDF9-F816-44F8-81AF-A1EF71CB91C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86ACDF9-F816-44F8-81AF-A1EF71CB91C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86ACDF9-F816-44F8-81AF-A1EF71CB91C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86ACDF9-F816-44F8-81AF-A1EF71CB91C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C065254B-F1EB-4E25-81CC-0C455B99AF54}
+	EndGlobalSection
+EndGlobal
