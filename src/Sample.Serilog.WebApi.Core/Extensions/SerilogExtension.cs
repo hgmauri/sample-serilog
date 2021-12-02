@@ -14,6 +14,7 @@ public static class SerilogExtension
             .MinimumLevel.Override("Microsoft.AspNetCore", LogEventLevel.Information)
             .Enrich.FromLogContext()
             .Enrich.WithExceptionDetails()
+            .Enrich.WithCorrelationId()
             .Enrich.WithProperty("ApplicationName", $"API Serilog - {Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT")}")
             .Filter.ByExcluding(Matching.FromSource("Microsoft.AspNetCore.StaticFiles"))
             .Filter.ByExcluding(z => z.MessageTemplate.Text.Contains("Business error"))

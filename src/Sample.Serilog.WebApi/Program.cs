@@ -8,6 +8,7 @@ try
     SerilogExtension.AddSerilogApi(builder.Configuration);
     builder.Host.UseSerilog(Log.Logger);
 
+    builder.Services.AddRouting(options => options.LowercaseUrls = true);
     builder.Services.AddControllers();
 
     builder.Services.AddEndpointsApiExplorer();

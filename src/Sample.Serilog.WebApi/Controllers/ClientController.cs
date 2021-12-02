@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace Sample.Serilog.WebApi.Controllers;
 
@@ -14,8 +15,11 @@ public class ClientController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> Post()
+    public async Task<IActionResult> Get()
     {
+        _logger.LogInformation("Endpoint Get successful. (from ILogger)");
+        Log.Information("Endpoint Get successful. (from Serilog)");
+
         return Ok();
     }
 }
