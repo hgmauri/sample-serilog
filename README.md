@@ -1,6 +1,6 @@
 # sample-serilog
 
-- .NET 6.0
+- .NET 7.0
 - Serilog
 - Swagger Swashbuckle
 - Middlewares
